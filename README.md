@@ -3,7 +3,7 @@
 This is the repository for the Xavier Demo app for iOS. You can use the code here as an example for implementing the Xavier Framework into your own app.
 See the documentation links below for more information.
 
-For **Android** developers, see the [Xavier Demo Android app](https://gitlab.com/blackshark-developers/xavier-demo-android).
+For **Android** developers, see the [Xavier Demo Android app](https://github.com/BlackSharkTech/xavier-demo-android).
 
 #### Documentation
 
