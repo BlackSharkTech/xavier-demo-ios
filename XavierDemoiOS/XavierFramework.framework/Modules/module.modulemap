@@ -1,0 +1,11 @@
+framework module XavierFramework {
+  umbrella header "XavierFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module XavierFramework.Swift {
+    header "XavierFramework-Swift.h"
+    requires objc
+}
