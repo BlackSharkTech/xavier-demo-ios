@@ -19,7 +19,7 @@ For **Android** developers, see the [Xavier Demo Android app](https://github.com
 
 | Version | Download | Date |
 |---------|----------|------|
-| v1.0 | [XavierFramework.framework](./downloads/v1.0/XavierFramework.framework.zip) | 2018/11/07 |
+| v1.0 | [XavierFramework.framework](./downloads/v2.0/XavierFramework.framework.zip) | 2018/11/07 |
 
 #### Dependencies
 > See [our Podfile](./XavierDemoiOS/Podfile) for more information.
