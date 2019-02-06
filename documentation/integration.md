@@ -1,5 +1,5 @@
 # Integration
-
+**Note: At this time, the Xavier Framework will not compile on the iOS Simulator, only on a real device.**
 ## Adding the Dependencies to your App
 
 First, you will need to import the following dependencies:
