@@ -14,12 +14,13 @@ For **Android** developers, see the [Xavier Demo Android app](https://github.com
 [Result Documentation](./documentation/result-mapping.md)
 
 #### Downloads
-> The Xavier framework was created with **Xcode Version 10.1** and **Swift 4.2**. The deployment supports **iOS 10+**. External dependencies are managed using Cocopods.
+> The most recent Xavier framework (v2.1) was created with **Xcode Version 10.3** and **Swift 5**. The deployment supports **iOS 10+**. External dependencies are managed using Cocopods.
 
 
-| Version | Download | Date |
-|---------|----------|------|
-| v2.0 | [XavierFramework.framework](./downloads/v2.0/XavierFramework.framework.zip) | 2018/11/07 |
+| Version | Download | Date |Build Tools|
+|---------|----------|------|-----------|
+| v2.1 | [XavierFramework.framework](./downloads/v2.1/XavierFramework.framework.zip) | 2019/08/20 |Xcode 10.3, Swift 5|
+| v2.0 | [XavierFramework.framework](./downloads/v2.0/XavierFramework.framework.zip) | 2018/11/07 |Xcode 10.1, Swift 4.2|
 
 #### Dependencies
 > See [our Podfile](./XavierDemoiOS/Podfile) for more information.
