@@ -14,7 +14,7 @@ For **Android** developers, see the [Xavier Demo Android app](https://github.com
 [Result Documentation](./documentation/result-mapping.md)
 
 #### Downloads
-> The most recent Xavier framework (v2.1) was created with **Xcode Version 11.1** and **Swift 5.1**. The deployment supports **iOS 10+**. External dependencies are managed using Cocopods.
+> The most recent Xavier framework (v2.2) was created with **Xcode Version 11.1** and **Swift 5.1**. The deployment supports **iOS 10+**. External dependencies are managed using Cocopods.
 
 
 | Version | Download | Date |Build Tools|
