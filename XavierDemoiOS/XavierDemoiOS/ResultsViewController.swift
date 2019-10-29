@@ -94,8 +94,8 @@ class ResultsViewController: UIViewController{
         view.addConstraints([horizontalConstraint1, verticalConstraint1, widthConstraint1])
         
         scanTimeLabel.numberOfLines = 0
-        let boldedTitle = NSMutableAttributedString(string: "Total Scan Time:", attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue])
-        let nonBoldedData = NSMutableAttributedString(string: " " + String(Double(round(1000*parsedMRZ.totalScanTime)/1000)) + "s")
+        let boldedTitle = NSMutableAttributedString(string: "Total Scan Time:", attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue, NSAttributedString.Key.foregroundColor: UIColor.black])
+        let nonBoldedData = NSMutableAttributedString(string: " " + String(Double(round(1000*parsedMRZ.totalScanTime)/1000)) + "s", attributes: [NSAttributedString.Key.foregroundColor: UIColor.black])
         boldedTitle.append(nonBoldedData)
         
         scanTimeLabel.attributedText = boldedTitle
@@ -131,6 +131,10 @@ class ResultsViewController: UIViewController{
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         //set scroll view size
         var contentRect = CGRect.zero
@@ -143,10 +147,6 @@ class ResultsViewController: UIViewController{
         resultsScrollView.contentSize = noHorizontalScrolling
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
-    
     @objc func dismissVC(){
         self.dismiss(animated: true, completion: nil)
     }
@@ -154,8 +154,8 @@ class ResultsViewController: UIViewController{
     func addLabelBelow(topLabel: UILabel, labelToAdd: UILabel, labelTitle: String, labelData: String){
         let screenWidth = UIScreen.main.bounds.width
         
-        let boldedTitle = NSMutableAttributedString(string: labelTitle, attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue])
-        let nonBoldedData = NSMutableAttributedString(string: " " + labelData, attributes: [NSAttributedString.Key.font : UIFont(name: "Courier", size: 18) ?? UIFont.systemFont(ofSize: 18)])
+        let boldedTitle = NSMutableAttributedString(string: labelTitle, attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue, NSAttributedString.Key.foregroundColor: UIColor.black])
+        let nonBoldedData = NSMutableAttributedString(string: " " + labelData, attributes: [NSAttributedString.Key.font : UIFont(name: "Courier", size: 18) ?? UIFont.systemFont(ofSize: 18), NSAttributedString.Key.foregroundColor: UIColor.black])
         boldedTitle.append(nonBoldedData)
         
         labelToAdd.attributedText = boldedTitle

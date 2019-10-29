@@ -107,6 +107,7 @@ class HomeViewController: UIViewController, XavierScannerDelegate {
     // MARK: XavierDelegate Functions
     func handleResults(results: ParsedMRZ) {
         let resultsVC = ResultsViewController(parsedMRZ: results)
+        resultsVC.modalPresentationStyle = .fullScreen
         
         let navC = CustomNavigationController()
         navC.viewControllers = [resultsVC]
@@ -114,6 +115,7 @@ class HomeViewController: UIViewController, XavierScannerDelegate {
         navC.navigationBar.barTintColor = UIColor(red: 199/255, green: 6/255, blue: 22/255, alpha: 1.0)
         
         resultsVC.pictureView.imgPhoto.image = results.documentImage
+        navC.modalPresentationStyle = .fullScreen
         
         self.present(navC, animated: true, completion: nil)
     }

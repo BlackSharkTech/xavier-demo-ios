@@ -41,7 +41,7 @@ class HowToViewController: UIViewController, IndicatorInfoProvider {
         parentScrollView.addSubview(helpLabel)
         
         helpLabel.textAlignment = .center
-        helpLabel.attributedText = NSMutableAttributedString(string: "Having trouble scanning?", attributes: [NSAttributedString.Key.font : UIFont(name: "Arial-BoldMT", size: 24) ?? UIFont.systemFont(ofSize: 24)])
+        helpLabel.attributedText = NSMutableAttributedString(string: "Having trouble scanning?", attributes: [NSAttributedString.Key.font : UIFont(name: "Arial-BoldMT", size: 24) ?? UIFont.systemFont(ofSize: 24), NSAttributedString.Key.foregroundColor: UIColor.black])
         helpLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let horizontalConstraint = helpLabel.centerXAnchor.constraint(equalTo: parentScrollView.centerXAnchor)
@@ -133,7 +133,7 @@ class HowToViewController: UIViewController, IndicatorInfoProvider {
         
         tipLabel.textAlignment = .left
         tipLabel.numberOfLines = 0
-        tipLabel.attributedText = NSMutableAttributedString(string: "\u{2022} " + tipText, attributes: [NSAttributedString.Key.font : UIFont(name: "ArialMT", size: 18) ?? UIFont.systemFont(ofSize: 18)])
+        tipLabel.attributedText = NSMutableAttributedString(string: "\u{2022} " + tipText, attributes: [NSAttributedString.Key.font : UIFont(name: "ArialMT", size: 18) ?? UIFont.systemFont(ofSize: 18), NSAttributedString.Key.foregroundColor: UIColor.black])
         tipLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let horizontalConstraint = tipLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)

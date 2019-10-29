@@ -62,6 +62,7 @@ class ContactViewController: UIViewController, IndicatorInfoProvider {
         toBuyLabel.textAlignment = .center
         toBuyLabel.font = HEADER_FONT
         toBuyLabel.text = "To Buy"
+        toBuyLabel.textColor = UIColor.black
         toBuyLabel.sizeToFit()
         
         setConstraints(parentView: parentScrollView, subView: toBuyLabel, topAnchor: parentScrollView.topAnchor, widthAnchor: parentScrollView.widthAnchor)
@@ -73,6 +74,8 @@ class ContactViewController: UIViewController, IndicatorInfoProvider {
         toBuyTextView.dataDetectorTypes = .all
         toBuyTextView.text = "Interested in having Xavier in your app? Email us at info@blacksharktech.com for pricing and license inquiries."
         toBuyTextView.font = BODY_FONT
+        toBuyTextView.textColor = UIColor.black
+        toBuyTextView.backgroundColor = UIColor.white
         toBuyTextView.isEditable = false
         toBuyTextView.isScrollEnabled = false
         toBuyTextView.textAlignment = .center
@@ -87,6 +90,7 @@ class ContactViewController: UIViewController, IndicatorInfoProvider {
         moreInfoLabel.textAlignment = .center
         moreInfoLabel.font = HEADER_FONT
         moreInfoLabel.text = "More Info"
+        moreInfoLabel.textColor = UIColor.black
         moreInfoLabel.sizeToFit()
         
         setConstraints(parentView: parentScrollView, subView: moreInfoLabel, topAnchor: toBuyTextView.bottomAnchor, widthAnchor: parentScrollView.widthAnchor)
@@ -99,6 +103,8 @@ class ContactViewController: UIViewController, IndicatorInfoProvider {
         moreInfoTextView.dataDetectorTypes = .all
         moreInfoTextView.text = "Visit our website at blacksharktech.com."
         moreInfoTextView.font = UIFont(name: "ArialMT", size: 18)
+        moreInfoTextView.textColor = UIColor.black
+        moreInfoTextView.backgroundColor = UIColor.white
         moreInfoTextView.isEditable = false
         moreInfoTextView.isScrollEnabled = false
         moreInfoTextView.textAlignment = .center
@@ -113,6 +119,7 @@ class ContactViewController: UIViewController, IndicatorInfoProvider {
         rateUsLabel.textAlignment = .center
         rateUsLabel.font = HEADER_FONT
         rateUsLabel.text = "Rate Us!"
+        rateUsLabel.textColor = UIColor.black
         rateUsLabel.sizeToFit()
         
         setConstraints(parentView: parentScrollView, subView: rateUsLabel, topAnchor: moreInfoTextView.bottomAnchor, widthAnchor: parentScrollView.widthAnchor)
@@ -125,6 +132,7 @@ class ContactViewController: UIViewController, IndicatorInfoProvider {
         rateUsTextView.numberOfLines = 0
         rateUsTextView.font = BODY_FONT
         rateUsTextView.text = "Enjoying our app? Rate us on the app store!"
+        rateUsTextView.textColor = UIColor.black
         
         setConstraints(parentView: parentScrollView, subView: rateUsTextView, topAnchor: separator.bottomAnchor, widthAnchor: parentScrollView.widthAnchor)
         
