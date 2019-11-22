@@ -8,4 +8,4 @@
 - Updated to be compatible the new Dark Mode
 
 ## 2.0.3
-- Minor bug fixes
+- Added demo app license key
