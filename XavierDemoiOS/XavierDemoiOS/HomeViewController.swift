@@ -101,7 +101,7 @@ class HomeViewController: UIViewController, XavierScannerDelegate {
     
     @objc func launchXavier() {
         let mrzScanner = MRZScanner()
-        mrzScanner.start(self, licenseKey: "LICENSE_KEY_HERE")
+        mrzScanner.start(self, licenseKey: "$2a$12$4fRrp695mahasvBWSSBLtOX/OMHxS5qmI0dweFc9pBMTx0P.SChaG")
     }
     
     // MARK: XavierDelegate Functions
