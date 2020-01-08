@@ -9,3 +9,6 @@
 
 ## 2.0.3
 - Added demo app license key
+
+## 2.0.4
+- Fixed a bug with flash icon displaying the wrong status when resuming the app from inactive state.
