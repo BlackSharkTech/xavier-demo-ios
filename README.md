@@ -1,4 +1,4 @@
-# Xavier Demo Application - iOS
+# Xavier SDK & Demo Application - iOS
 
 This is the repository for the Xavier Demo app for iOS. You can use the code here as an example for implementing the Xavier Framework into your own app.
 See the documentation links below for more information.
