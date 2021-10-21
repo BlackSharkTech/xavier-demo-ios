@@ -20,7 +20,7 @@ For **Android** developers, see the [Xavier Demo Android app](https://github.com
 | Version | Download | Date |Build Tools|
 |---------|----------|------|-----------|
 | v2.0.6 | [XavierFramework.framework](./downloads/v2.0.6/XavierFramework.framework.zip) | 2021/10/21 |Xcode 13.0, Swift 5.5|
-| v2.0.5 | [XavierFramework.framework](./downloads/v2.0.5/XavierFramework.framework.zip) | 2021/01/13 |Xcode 12.3, Swift 5.2|
+| v2.0.5 | [XavierFramework.framework](./downloads/v2.0.5/XavierFramework.framework.zip) | 2021/01/13 |Xcode 12.3, Swift 5.3|
 | v2.0.4 | [XavierFramework.framework](./downloads/v2.0.4/XavierFramework.framework.zip) | 2020/01/08 |Xcode 11.1, Swift 5.1|
 | v2.0.3 | [XavierFramework.framework](./downloads/v2.0.3/XavierFramework.framework.zip) | 2019/10/29 |Xcode 11.1, Swift 5.1|
 | v2.0.2 | [XavierFramework.framework](./downloads/v2.0.2/XavierFramework.framework.zip) | 2019/10/29 |Xcode 11.1, Swift 5.1|
