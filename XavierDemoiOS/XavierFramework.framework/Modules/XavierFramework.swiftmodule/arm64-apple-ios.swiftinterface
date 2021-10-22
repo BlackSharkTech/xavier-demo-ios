@@ -1,0 +1,65 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name XavierFramework
+import AVFoundation
+import EVGPUImage2
+import Foundation
+import Swift
+import TesseractOCRSDKiOS
+import UIKit
+@_exported import XavierFramework
+import _Concurrency
+public protocol XavierScannerDelegate : AnyObject {
+  func handleResults(results: XavierFramework.ParsedMRZ)
+  func scanCancelled()
+}
+public class MRZScanner {
+  public init()
+  public var boundingBoxSearchingColor: UIKit.UIColor
+  public var boundingBoxFoundColor: UIKit.UIColor
+  public var closeButtonColor: UIKit.UIColor
+  public var flashOnButtonColor: UIKit.UIColor
+  public var flashOnButtonImage: UIKit.UIImage?
+  public var flashOffButtonColor: UIKit.UIColor
+  public var flashOffButtonImage: UIKit.UIImage?
+  public var flashButtonEnabled: Swift.Bool
+  public var instructionTextEnabled: Swift.Bool
+  public var instructionText: Swift.String
+  public var instructionTextColor: UIKit.UIColor
+  public var instructionTextFont: UIKit.UIFont
+  public var toastEnabled: Swift.Bool
+  public var toastText: Swift.String
+  public var toastTextColor: UIKit.UIColor
+  public var toastTextFont: UIKit.UIFont
+  public var cameraNegativeSpaceBackgroundEnabled: Swift.Bool
+  public var cameraNegativeSpaceBackgroundColor: UIKit.UIColor
+  public func start(_ sender: UIKit.UIViewController, licenseKey: Swift.String)
+  @objc deinit
+}
+public class ParsedMRZ {
+  public init()
+  public var rawMRZ: Swift.String
+  public var documentType: Swift.String
+  public var documentNumber: Swift.String
+  public var sex: Swift.String
+  public var givenName: Swift.String
+  public var surname: Swift.String
+  public var countryCitizen: Swift.String
+  public var countryIssue: Swift.String
+  public var dateExpiration: Swift.String
+  public var dateBirth: Swift.String
+  public var optionalData: Swift.String
+  public var optionalData2: Swift.String
+  public var stateIssue: Swift.String
+  public var documentImage: UIKit.UIImage
+  public var documentNumberCheckDigit: Swift.String
+  public var dateExpirationCheckDigit: Swift.String
+  public var dateBirthCheckDigit: Swift.String
+  public var optionalDataCheckDigit: Swift.String
+  public var compositeCheckDigit: Swift.String
+  public var totalScanTime: Swift.Double
+  @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static var modelName: Swift.String
+}
