@@ -16,8 +16,8 @@
 		6E59D72F217E1A0800A774C8 /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59D72E217E1A0800A774C8 /* HowToViewController.swift */; };
 		6E59D731217E1CFD00A774C8 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59D730217E1CFD00A774C8 /* ContactViewController.swift */; };
 		6EC744EF217E2E8C008218ED /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC744EE217E2E8C008218ED /* ResultsViewController.swift */; };
-		C0894A702720B50F0040599D /* XavierFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0894A6E2720B5050040599D /* XavierFramework.framework */; platformFilter = ios; };
-		C0894A712720B50F0040599D /* XavierFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0894A6E2720B5050040599D /* XavierFramework.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C04918F22739D59A00C2BF88 /* XavierFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04918F02739D39C00C2BF88 /* XavierFramework.framework */; platformFilter = ios; };
+		C04918F32739D59A00C2BF88 /* XavierFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C04918F02739D39C00C2BF88 /* XavierFramework.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0045A431B9A53FEC091EAF3 /* Pods_XavierDemoiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4CA82788DF440EEF578669 /* Pods_XavierDemoiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C0894A712720B50F0040599D /* XavierFramework.framework in Embed Frameworks */,
+				C04918F32739D59A00C2BF88 /* XavierFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 		6E59D72E217E1A0800A774C8 /* HowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
 		6E59D730217E1CFD00A774C8 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		6EC744EE217E2E8C008218ED /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		C0894A6E2720B5050040599D /* XavierFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XavierFramework.framework; sourceTree = "<group>"; };
+		C04918F02739D39C00C2BF88 /* XavierFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XavierFramework.framework; sourceTree = "<group>"; };
 		F39E037134955DA23465F2B4 /* Pods-XavierDemoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XavierDemoiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XavierDemoiOS/Pods-XavierDemoiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0894A702720B50F0040599D /* XavierFramework.framework in Frameworks */,
+				C04918F22739D59A00C2BF88 /* XavierFramework.framework in Frameworks */,
 				D0045A431B9A53FEC091EAF3 /* Pods_XavierDemoiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +71,7 @@
 		4F5E0AE51B8DF8D009623C86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0894A6E2720B5050040599D /* XavierFramework.framework */,
+				C04918F02739D39C00C2BF88 /* XavierFramework.framework */,
 				2B4CA82788DF440EEF578669 /* Pods_XavierDemoiOS.framework */,
 			);
 			name = Frameworks;
@@ -389,7 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2021.10.20.01;
 				DEVELOPMENT_TEAM = MZTE8253EZ;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -400,7 +400,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.6;
+				MARKETING_VERSION = 2.0.7;
+				ONLY_ACTIVE_ARCH = YES;
+				"PODS_CONFIGURATION_BUILD_DIR[arch=*]" = "${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacksharktech.XavierDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -418,7 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2021.10.20.01;
 				DEVELOPMENT_TEAM = MZTE8253EZ;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -429,7 +431,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.6;
+				MARKETING_VERSION = 2.0.7;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacksharktech.XavierDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
