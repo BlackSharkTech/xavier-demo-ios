@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,19 +16,19 @@
 		6E59D72F217E1A0800A774C8 /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59D72E217E1A0800A774C8 /* HowToViewController.swift */; };
 		6E59D731217E1CFD00A774C8 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59D730217E1CFD00A774C8 /* ContactViewController.swift */; };
 		6EC744EF217E2E8C008218ED /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC744EE217E2E8C008218ED /* ResultsViewController.swift */; };
-		C0894A702720B50F0040599D /* XavierFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0894A6E2720B5050040599D /* XavierFramework.framework */; platformFilter = ios; };
-		C0894A712720B50F0040599D /* XavierFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0894A6E2720B5050040599D /* XavierFramework.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0FBFAF62CED082F00B3FAED /* XavierFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FBFAF42CED082C00B3FAED /* XavierFramework.framework */; };
+		C0FBFAF72CED082F00B3FAED /* XavierFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0FBFAF42CED082C00B3FAED /* XavierFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0045A431B9A53FEC091EAF3 /* Pods_XavierDemoiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4CA82788DF440EEF578669 /* Pods_XavierDemoiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C0894A722720B50F0040599D /* Embed Frameworks */ = {
+		C0FBFAF82CED082F00B3FAED /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C0894A712720B50F0040599D /* XavierFramework.framework in Embed Frameworks */,
+				C0FBFAF72CED082F00B3FAED /* XavierFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 		6E59D72E217E1A0800A774C8 /* HowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
 		6E59D730217E1CFD00A774C8 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		6EC744EE217E2E8C008218ED /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		C0894A6E2720B5050040599D /* XavierFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XavierFramework.framework; sourceTree = "<group>"; };
+		C0FBFAF42CED082C00B3FAED /* XavierFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XavierFramework.framework; sourceTree = "<group>"; };
 		F39E037134955DA23465F2B4 /* Pods-XavierDemoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XavierDemoiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XavierDemoiOS/Pods-XavierDemoiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0894A702720B50F0040599D /* XavierFramework.framework in Frameworks */,
+				C0FBFAF62CED082F00B3FAED /* XavierFramework.framework in Frameworks */,
 				D0045A431B9A53FEC091EAF3 /* Pods_XavierDemoiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +71,7 @@
 		4F5E0AE51B8DF8D009623C86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0894A6E2720B5050040599D /* XavierFramework.framework */,
+				C0FBFAF42CED082C00B3FAED /* XavierFramework.framework */,
 				2B4CA82788DF440EEF578669 /* Pods_XavierDemoiOS.framework */,
 			);
 			name = Frameworks;
@@ -135,7 +135,7 @@
 				6E59D6FE217A158500A774C8 /* Frameworks */,
 				6E59D6FF217A158500A774C8 /* Resources */,
 				BC622FAA94E598FDE3705AD0 /* [CP] Embed Pods Frameworks */,
-				C0894A722720B50F0040599D /* Embed Frameworks */,
+				C0FBFAF82CED082F00B3FAED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -387,7 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2021.10.20.01;
+				CURRENT_PROJECT_VERSION = 2024.11.19.01;
 				DEVELOPMENT_TEAM = MZTE8253EZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -400,7 +400,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.6;
+				MARKETING_VERSION = 2.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacksharktech.XavierDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -416,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2021.10.20.01;
+				CURRENT_PROJECT_VERSION = 2024.11.19.01;
 				DEVELOPMENT_TEAM = MZTE8253EZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -429,7 +429,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.6;
+				MARKETING_VERSION = 2.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacksharktech.XavierDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
