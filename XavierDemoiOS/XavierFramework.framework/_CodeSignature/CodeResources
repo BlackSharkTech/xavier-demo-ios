@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zUouPqhoDIoyxQRRc8813pGyHcE=
+		vzNzJTFPbuRkgJh4ZKk1xpo733I=
 		</data>
 		<key>Headers/XavierFramework-Swift.h</key>
 		<data>
-		BXbsOdwTl6eLvyj9yx+yIJkp5Zc=
+		cSf+jh+j0pY5+sbM8ZiF8FDrLj8=
 		</data>
 		<key>Headers/XavierFramework.h</key>
 		<data>
@@ -18,91 +18,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KH3eYoAZcM7dwPkWnindCcWOAEs=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<data>
-		wE8rABintNB9OX8LLDo4CjxDejo=
+		o3egY/smttZeIMhs9YTUCvBxdws=
 		</data>
 		<key>Modules/XavierFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		/XdWh8qouHggQo3DTcuYZ6q61es=
+		AQjqvDx+fQUddM1ABAlqQvY4iGY=
 		</data>
-		<key>Modules/XavierFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/XdWh8qouHggQo3DTcuYZ6q61es=
+		81ZwYsBDQ0Ia2B0xYaFH50jQmaQ=
 		</data>
-		<key>Modules/XavierFramework.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wE8rABintNB9OX8LLDo4CjxDejo=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<data>
-		wE8rABintNB9OX8LLDo4CjxDejo=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/arm.swiftdoc</key>
-		<data>
-		0ItPCTbYLOKdYeQeda1ZFDTHqcA=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/arm.swiftinterface</key>
-		<data>
-		Jbgc4C1RsmRmAs9ZJRVxRoccxSo=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/arm.swiftmodule</key>
-		<data>
-		eeH5tmRjj2OtgxInMhi4XLduXkg=
+		107fPEqmXxPD31yi1RvZwUHnGvw=
 		</data>
 		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		UeGSGG9BBRxN1el69XqYjObupNE=
+		omX/E+Qp8ipWKBk4MsG9fAeNxHQ=
 		</data>
 		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1sAfVeiZMPhfv+qHT/trlFhJis4=
+		107fPEqmXxPD31yi1RvZwUHnGvw=
 		</data>
 		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		WStdEBTdaqontNEOvPRj5GMIlfw=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		UeGSGG9BBRxN1el69XqYjObupNE=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		1sAfVeiZMPhfv+qHT/trlFhJis4=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		WStdEBTdaqontNEOvPRj5GMIlfw=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		0ItPCTbYLOKdYeQeda1ZFDTHqcA=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<data>
-		Jbgc4C1RsmRmAs9ZJRVxRoccxSo=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		eeH5tmRjj2OtgxInMhi4XLduXkg=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		0ItPCTbYLOKdYeQeda1ZFDTHqcA=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/armv7.swiftinterface</key>
-		<data>
-		Jbgc4C1RsmRmAs9ZJRVxRoccxSo=
-		</data>
-		<key>Modules/XavierFramework.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		eeH5tmRjj2OtgxInMhi4XLduXkg=
+		S1m8j9pP+F6FBE1Z3cvhXQgmX0c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		OpW5tIlCugmfq1oalMncf6xjNa0=
+		ft/nT4K7padQV428I5WuDeCiFVQ=
 		</data>
 		<key>tessdata/ocrb.traineddata</key>
 		<data>
@@ -113,274 +57,76 @@
 	<dict>
 		<key>Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zUouPqhoDIoyxQRRc8813pGyHcE=
-			</data>
 			<key>hash2</key>
 			<data>
-			1GPm1t4+gbvmyVWfAqzU+JKY3hHNFIvd2viUMqCKB2Y=
+			dzAZXg8jGWxawZOP1Gsn89MeBIaidSUkK3/z7CS4Pt8=
 			</data>
 		</dict>
 		<key>Headers/XavierFramework-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BXbsOdwTl6eLvyj9yx+yIJkp5Zc=
-			</data>
 			<key>hash2</key>
 			<data>
-			HISvfOe5Za+ajjKUzjMT/rjEgzfupSzJzJ3kSHTSQ04=
+			A6MX+QM2nxVRr1OXCsuADxQRFLcmHIAnKYmfod/dlkU=
 			</data>
 		</dict>
 		<key>Headers/XavierFramework.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2iAb4/sI2Sa2EYBeLfdXWaboW2k=
-			</data>
 			<key>hash2</key>
 			<data>
 			Jh4rgK9Py0G1IAZvf+vbV1eXDNOeqrVL2aPHldsKH+w=
 			</data>
 		</dict>
-		<key>Modules/XavierFramework.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wE8rABintNB9OX8LLDo4CjxDejo=
-			</data>
-			<key>hash2</key>
-			<data>
-			o0Y4bT6U9cLw6w/LXvbVD6hU2vcxhxqteTcY3KanOlY=
-			</data>
-		</dict>
 		<key>Modules/XavierFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/XdWh8qouHggQo3DTcuYZ6q61es=
-			</data>
 			<key>hash2</key>
 			<data>
-			48GfxievNIbiqW9OQlVffDpv7gOaPxLDy+qPm5lmF3w=
+			9JNi1Q0yidiOBNTJVQAxgwt7rO9TMxkk3qT5/6bDqso=
 			</data>
 		</dict>
-		<key>Modules/XavierFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/XdWh8qouHggQo3DTcuYZ6q61es=
-			</data>
 			<key>hash2</key>
 			<data>
-			48GfxievNIbiqW9OQlVffDpv7gOaPxLDy+qPm5lmF3w=
+			jzoieGJ6byEWPpoLttKFFvHvCWYKSVF4rx9GTes72d8=
 			</data>
 		</dict>
-		<key>Modules/XavierFramework.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wE8rABintNB9OX8LLDo4CjxDejo=
-			</data>
 			<key>hash2</key>
 			<data>
-			o0Y4bT6U9cLw6w/LXvbVD6hU2vcxhxqteTcY3KanOlY=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wE8rABintNB9OX8LLDo4CjxDejo=
-			</data>
-			<key>hash2</key>
-			<data>
-			o0Y4bT6U9cLw6w/LXvbVD6hU2vcxhxqteTcY3KanOlY=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/arm.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0ItPCTbYLOKdYeQeda1ZFDTHqcA=
-			</data>
-			<key>hash2</key>
-			<data>
-			jfLQqU8sWmPE54ucXAMdtb41rcUR9jJGZjwZLUlkGHw=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/arm.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jbgc4C1RsmRmAs9ZJRVxRoccxSo=
-			</data>
-			<key>hash2</key>
-			<data>
-			7H7doyBHSr1E4nhy6e6oRmgzTSZYnR+R7OMv2dFO3eM=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/arm.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eeH5tmRjj2OtgxInMhi4XLduXkg=
-			</data>
-			<key>hash2</key>
-			<data>
-			O7nkr08eCkpTzkdJcrUFMCcZOJU0wx6/1tOTwaJKzPw=
+			XHgOwBzcfQabzRqKZcm4Pi7UhB84hKAGpcAvJpuCfik=
 			</data>
 		</dict>
 		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UeGSGG9BBRxN1el69XqYjObupNE=
-			</data>
 			<key>hash2</key>
 			<data>
-			BuV6SOFUFnv38TZTtxvkLDp7RugAUvVDB6zNkQXVIyE=
+			PCYEkmfgSsiPTRD4cUJqG6MMmK8lL/c71mv8HrdyZ/s=
 			</data>
 		</dict>
 		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1sAfVeiZMPhfv+qHT/trlFhJis4=
-			</data>
 			<key>hash2</key>
 			<data>
-			0QfLG1wbXuqXafgjuDdn/5xYzzEmeKlfugV57axWM+I=
+			XHgOwBzcfQabzRqKZcm4Pi7UhB84hKAGpcAvJpuCfik=
 			</data>
 		</dict>
 		<key>Modules/XavierFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WStdEBTdaqontNEOvPRj5GMIlfw=
-			</data>
 			<key>hash2</key>
 			<data>
-			VMHZET4Av5rupaRHDwxclWJO+sQHTPHzZvNY40HNzvU=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UeGSGG9BBRxN1el69XqYjObupNE=
-			</data>
-			<key>hash2</key>
-			<data>
-			BuV6SOFUFnv38TZTtxvkLDp7RugAUvVDB6zNkQXVIyE=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1sAfVeiZMPhfv+qHT/trlFhJis4=
-			</data>
-			<key>hash2</key>
-			<data>
-			0QfLG1wbXuqXafgjuDdn/5xYzzEmeKlfugV57axWM+I=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WStdEBTdaqontNEOvPRj5GMIlfw=
-			</data>
-			<key>hash2</key>
-			<data>
-			VMHZET4Av5rupaRHDwxclWJO+sQHTPHzZvNY40HNzvU=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0ItPCTbYLOKdYeQeda1ZFDTHqcA=
-			</data>
-			<key>hash2</key>
-			<data>
-			jfLQqU8sWmPE54ucXAMdtb41rcUR9jJGZjwZLUlkGHw=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jbgc4C1RsmRmAs9ZJRVxRoccxSo=
-			</data>
-			<key>hash2</key>
-			<data>
-			7H7doyBHSr1E4nhy6e6oRmgzTSZYnR+R7OMv2dFO3eM=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eeH5tmRjj2OtgxInMhi4XLduXkg=
-			</data>
-			<key>hash2</key>
-			<data>
-			O7nkr08eCkpTzkdJcrUFMCcZOJU0wx6/1tOTwaJKzPw=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0ItPCTbYLOKdYeQeda1ZFDTHqcA=
-			</data>
-			<key>hash2</key>
-			<data>
-			jfLQqU8sWmPE54ucXAMdtb41rcUR9jJGZjwZLUlkGHw=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/armv7.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jbgc4C1RsmRmAs9ZJRVxRoccxSo=
-			</data>
-			<key>hash2</key>
-			<data>
-			7H7doyBHSr1E4nhy6e6oRmgzTSZYnR+R7OMv2dFO3eM=
-			</data>
-		</dict>
-		<key>Modules/XavierFramework.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eeH5tmRjj2OtgxInMhi4XLduXkg=
-			</data>
-			<key>hash2</key>
-			<data>
-			O7nkr08eCkpTzkdJcrUFMCcZOJU0wx6/1tOTwaJKzPw=
+			y2WXmp/TeS2DEvpi8tI/B9TsrWuXrQMc68PCp4NXyyg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OpW5tIlCugmfq1oalMncf6xjNa0=
-			</data>
 			<key>hash2</key>
 			<data>
-			OudXrd48BXQTUJvcxQA5EOLhstctq3CmqEJK4EROlOY=
+			hyoj4Kdfuei+BpUMRL+D44jsDVwA7jnD5CU8Ut7/aNI=
 			</data>
 		</dict>
 		<key>tessdata/ocrb.traineddata</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LCB9HKlImEGzlmLulZhNhPNS9fs=
-			</data>
 			<key>hash2</key>
 			<data>
 			f2wpUj+pNsfvU9JZZIPiG4LVBjfz8ebGf31P6lkOJS0=
